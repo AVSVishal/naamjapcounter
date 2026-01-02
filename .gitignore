@@ -1,0 +1,25 @@
+# Data files
+data/
+*.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
