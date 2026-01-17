@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /counter_data.json
-Disallow: /performance-test.php
-# Sitemap
-Sitemap: https://chantingcounter.com/sitemap.xml
-# Crawl-delay
-Crawl-delay: 1
-
