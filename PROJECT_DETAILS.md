@@ -1,11 +1,11 @@
-# Trend Hook - Project Details (V03)
+# Trend Hook - Project Details (V05)
 
-**App:** Trend Hook | **Package:** com.avsvishalmedia.trendhook | **Framework:** Flutter (Dart 3.0+)
+**App:** TREND HOOK | **Package:** com.avsvishalmedia.trendhook | **Framework:** Flutter Dart 3.0+
 
 **Structure:** Single-file (`lib/main.dart`). Dependencies: flutter, shared_preferences, cupertino_icons.
 
-**Classes:** TrendHookApp, PremiumManager (SharedPreferences, code:"000"), HomePage (search bar, tabs, 2-column grid, category chips, drawer), _ReelShimmerLoader (animated blur loading effect), ReelDetailPage, AccountDetailPage.
+**Classes:** TrendHookApp, PremiumManager (code:"000"), HomePage (search, tabs, 2-col grid, category chips with icons), _ReelShimmerLoader (animated blur), ReelDetailPage, AccountDetailPage.
 
-**Features:** Trending reels grid (8 categories), animated shimmer-blur on loading reels, search bar, exploding accounts discovery, premium gating, pill-shaped UI elements, refined dark theme (#0A0A0A), warm gradient accents (FF6B6B→FF8E53), 16px corner radius system, 0.5px subtle borders.
+**Theme:** Lime-green accent (#C5E84D) on dark (#0A0A0A). Title: "TREND" white bold + "HOOK" in lime pill with fire icon. Category buttons: lime-green pills, dark text, star/category icons, glow shadow. All text CAPS where titles.
 
-**Database:** SharedPreferences only (key:"premium").
+**Database:** SharedPreferences (key:"premium").
