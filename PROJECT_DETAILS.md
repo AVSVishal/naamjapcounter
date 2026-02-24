@@ -1,11 +1,9 @@
-# Trend Hook - Project Details (V05)
+# Trend Hook - Project Details (V06)
 
 **App:** TREND HOOK | **Package:** com.avsvishalmedia.trendhook | **Framework:** Flutter Dart 3.0+
 
-**Structure:** Single-file (`lib/main.dart`). Dependencies: flutter, shared_preferences, cupertino_icons.
+**V06 Changes:** API-driven data via `https://development.avsvishalmedia.com/viralhook/data.json`. Added http package. PHP admin panel with MySQL backend for CRUD reels/accounts. Login: admin@avsvishalmedia.com. Admin panel at /viralhook/admin.php. Pull-to-refresh, loading states, error handling.
 
-**Classes:** TrendHookApp, PremiumManager (code:"000"), HomePage (search, tabs, 2-col grid, category chips with icons), _ReelShimmerLoader (animated blur), ReelDetailPage, AccountDetailPage.
+**Structure:** V06/app/ (Flutter), V06/admin/ (PHP: admin.php, config.php, setup.sql, api.php, data.json, .htaccess). Hosting: Hostinger MySQL.
 
-**Theme:** Lime-green accent (#C5E84D) on dark (#0A0A0A). Title: "TREND" white bold + "HOOK" in lime pill with fire icon. Category buttons: lime-green pills, dark text, star/category icons, glow shadow. All text CAPS where titles.
-
-**Database:** SharedPreferences (key:"premium").
+**Theme:** Lime-green (#C5E84D) on dark (#0A0A0A). Title: "TREND" white + "HOOK" lime pill.
