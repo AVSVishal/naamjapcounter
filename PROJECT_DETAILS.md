@@ -1,13 +1,13 @@
-# Jewellery AI - Project Details (V01)
+# Trend Hook - Project Details (V02)
 
-**App:** Jewellery AI | **Package:** com.avsvishalmedia.jewelleryai | **Framework:** Flutter (Dart 3.0+)
+**App:** Trend Hook | **Package:** com.avsvishalmedia.trendhook | **Framework:** Flutter (Dart 3.0+)
 
-**Structure:** Single-file app (`lib/main.dart`, 1900 lines). Dependencies: flutter, shared_preferences, cupertino_icons.
+**Structure:** Single-file app (`lib/main.dart`). Dependencies: flutter, shared_preferences, cupertino_icons.
 
-**Classes:** JewelleryAiApp (MaterialApp), PremiumManager (SharedPreferences-based, code: "000"), HomePage (drawer, filters, grid/list), PromptDetailPage (copy prompts), CoursePlayerPage (video UI).
+**Classes:** TrendHookApp (MaterialApp), PremiumManager (SharedPreferences, code: "000"), HomePage (tabs, category chips, drawer), ReelDetailPage (stats, caption copy), AccountDetailPage (growth/strategy).
 
-**Features:** Prompt library (4 categories: Art/All/Imagine/Model, 6 items each), premium gating, clipboard copy, course video player with controls, glassmorphism dark UI (#0A0A0A), navigation drawer.
+**Features:** Trending Instagram reels (8 categories: Entertainment/Comedy/Education/Fitness/Food/Tech/Fashion/Travel), exploding accounts discovery (growth stats, engagement rates), premium gating, glassmorphism dark UI, Instagram-gradient branding.
 
-**Database:** SharedPreferences only (key: "premium"). No Firebase/SQLite/API.
+**Database:** SharedPreferences (key: "premium"). No Firebase/SQLite/API.
 
-**Android:** compileSdk 34, minSdk 24, Kotlin 2.1.0, Gradle 8.6.1.
+**Android:** compileSdk 34, minSdk 24, Kotlin 2.1.0.
