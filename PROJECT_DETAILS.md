@@ -1,9 +1,9 @@
-# Trend Hook - Project Details (V06)
+# Trend Hook - Project Details (V07)
 
 **App:** TREND HOOK | **Package:** com.avsvishalmedia.trendhook | **Framework:** Flutter Dart 3.0+
 
-**V06 Changes:** API-driven data via `https://development.avsvishalmedia.com/viralhook/data.json`. Added http package. PHP admin panel with MySQL backend for CRUD reels/accounts. Login: admin@avsvishalmedia.com. Admin panel at /viralhook/admin.php. Pull-to-refresh, loading states, error handling.
+**V07 Fixes:** Crash-proof app. All JSON values use safe getters `_s()`, `_i()`, `_parseColor()` — no null crashes. Fallback demo data loads when API fails. No error screen — always shows content. `DemoData` class holds static reels/accounts. Pull-to-refresh reloads from API. DEMO badge shows when offline.
 
-**Structure:** V06/app/ (Flutter), V06/admin/ (PHP: admin.php, config.php, setup.sql, api.php, data.json, .htaccess). Hosting: Hostinger MySQL.
+**Database:** `u909324410_viralhook` user `u909324410_viralhook`. Setup.sql uses correct DB. Config.php updated.
 
-**Theme:** Lime-green (#C5E84D) on dark (#0A0A0A). Title: "TREND" white + "HOOK" lime pill.
+**Structure:** V07/app/ (Flutter) + V07/admin/ (PHP admin panel).
