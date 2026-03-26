@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334267645435",
+    "project_id": "stm-android",
+    "storage_bucket": "stm-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334267645435:android:2f94b4076d06646bf05f5e",
+        "android_client_info": {
+          "package_name": "com.avsvishalmedia.spendthemoney"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUebzvhcEfHwPOsnLxMfVgPm4Aat1J3WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
